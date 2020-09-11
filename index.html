@@ -1,0 +1,62 @@
+<html>
+  <head>
+  </head>
+  <body>
+    <div class="letout" id="letoutId">
+  
+      <forms class="formu">
+          <label>Nom</label><br>
+          <input type="text" class="nom" id="nom">
+          <label>Peau</label><br/>
+        
+      <div class="peau">
+        <label><input type="radio" name="peau" value="1" id="jaune">👋</label>
+        <label><input type="radio" name="peau" id="blanc">👋🏻</label>
+        <label><input type="radio" name="peau" id="mulate">👋🏽</label>
+        <label><input type="radio" name="peau" id="noir">👋🏿</label>  
+      </div><br>
+        
+        <label for="choix">Choix</label>
+        <select name="choix" class="choix" id="choix">
+          <option value="0" name="roche">🥔</option>
+          <option value="1" name="papier"> 📄</option>
+          <option value="2" name="ciseaux">✂️</option>
+        </select><br/><br/>
+        
+       <button type="button" class="btn" value="Display Random Image">Jouer</button>
+      </form>
+    </div>
+  
+  
+  
+  
+  <div class="resultat">
+      
+       
+       <div class="player">
+        <h2 id="joueur"></h2>
+         <div class="cJoueur">
+         </div>
+       </div>
+    
+       <div class="player2">
+        <span id="opposant">CPU</span>
+         <div class="cOrdi" name="canvas">
+         </div>
+       </div>
+       
+       <div class="bas">
+         <span id="annonce">VICTOIRE</span>
+         <button type="button" class="rejouer">Rejouer</button>
+        </div>
+       
+       
+     
+    </div>
+    
+    
+  </body>
+    
+  
+  </body>
+</html>
