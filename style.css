@@ -67,10 +67,8 @@ select{
   text-align:center;
   transform:translateX(100%);
 }
-.cJoueur{
-  width:50%;
-  height:200px;
-  
+#cJoueur{
+  font-size: 30vmin; 
 }
 .player2{
   width:25%;
@@ -80,17 +78,16 @@ select{
   transform:translateX(100%);
 }
 .cOrdi{
-  width:50%;
-  height:200px;
-  transform:translateX(50%) translateY(100%);
+  font-size: 30vmin;
 }
 .bas{
   display:flex;
   justify-content:center;
   position:relative;
 }
-#annonce{
+.annonce{
   position:absolute;
+  font-size:60px;
   color:white;
   z-index:1;
   bottom:10%;
@@ -110,5 +107,5 @@ select{
   display: none;
 }
 #joueur{
-  font-size:10vw;
+  font-size:3vw;
 }
